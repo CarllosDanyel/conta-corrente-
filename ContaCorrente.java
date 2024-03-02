@@ -1,16 +1,9 @@
 public class ContaCorrente {
     private String nomeTitular;
-    private int numeroConta;
     private double saldo;
-    private String email;
-    private String telefone;
-
     public ContaCorrente(String nomeTitular, int numeroConta, String email, String telefone) {
         this.nomeTitular = nomeTitular;
-        this.numeroConta = numeroConta;
         this.saldo = 100;
-        this.email = email;
-        this.telefone = telefone;
     }
 
     public void depositar(double valor) {
